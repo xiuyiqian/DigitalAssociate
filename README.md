@@ -6,14 +6,14 @@ Turn text into audio and project it onto audio2face with emotion shown on the te
 2.Sentiment/Emotion Analysis\
 3.Change Emotion\
 4.Push Audio data to Audio2Face (GRPC Request)\
-5.Building Streaming service between Audio2Face and Unreal (OSC server)\
+5.Building Streaming service between Audio2Face and Unreal (OSC server)
 ## Demo
 [![IMAGE ALT TEXT]](https://user-images.githubusercontent.com/79441444/234890837-7fd4f2a2-ab41-47e4-9fea-713c3bd09aea.mp4
  "Demo")
 
 
 ## How to Run the Project
-Before you begin, you'll need to clone the repository with the template code used in this repo.\
+Before you begin, you'll need to clone the repository with the template code used in this repo.
 ###
 Omniverse Audio2Face is an application brings our avatars to vivid state. With [Omniverse Audio2Face](https://www.nvidia.com/en-us/omniverse/apps/audio2face/), anyone can now create realistic facial expressions and emotions to match voice-over track. 
 #### ***Omniverse Audio2Face***
