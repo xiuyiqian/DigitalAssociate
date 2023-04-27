@@ -1,6 +1,6 @@
 # Build an avatar with OpenAI, Unreal and Omniverse Audio2Face
 ## Project Description
-Ideally, turn text into audio and project it onto audio2face.
+Turn text into audio and project it onto audio2face with emotion shown on the text.
 ## Project Procedure 
 1.Text to speech/Audio\
 2.Sentiment/Emotion Analysis\
@@ -10,3 +10,37 @@ Ideally, turn text into audio and project it onto audio2face.
 ## Demo
 [![IMAGE ALT TEXT]](https://user-images.githubusercontent.com/79441444/234890837-7fd4f2a2-ab41-47e4-9fea-713c3bd09aea.mp4
  "Demo")
+
+
+## How to Run the Project
+Before you begin, you'll need to clone the repository with the template code used in this repo.\
+###
+Omniverse Audio2Face is an application brings our avatars to vivid state. With [Omniverse Audio2Face](https://www.nvidia.com/en-us/omniverse/apps/audio2face/), anyone can now create realistic facial expressions and emotions to match voice-over track. 
+#### ***Omniverse Audio2Face***
+![](https://i.imgur.com/7ioYQHj.png)
+#### Creating an environment from an environment. yml file
+Make sure Anaconda is installed on your local machine.\
+Create the virtual environment with following commands\
+Use the following command to install packages included in requirements.yml:
+```
+$ conda env create -f /path/to/requirements.yml
+```
+#### Omniverse Audio2Face setup
+Getting the python script interact with the Audio2Face to play the audio, we need to choose streaming audio player instead of playing local data.
+To link the streaming player instance to the Metahuman, you need to edit the graph exactly the same as below.\
+** To open the blueprint
+
+## How It Works
+![](https://i.imgur.com/BZIBUAt.png)
+#### ***Text To Speech***
+The avatar's innput text converts to audio by the [Gtts API](https://pypi.org/project/gTTS/). The synthesized voice has been used to drive the facial animation on metahumn
+#### ***Language Understanding***
+
+
+
+
+
+
+
+
+
