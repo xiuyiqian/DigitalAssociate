@@ -1,12 +1,12 @@
 # Build an avatar with OpenAI, Unreal and Omniverse Audio2Face
 ## Project Description
 Ideally, turn text into audio and project it onto audio2face.
-## Project Procedure
-1.Text to speech/Audio
-2. Sentiment/Emotion Analysis 
-3. Change Emotion 
-4. Push Audio data to Audio2Face (GRPC Request)
-5.Building Streaming service between Audio2Face and Unreal (OSC server)
+## Project Procedure 
+1.Text to speech/Audio \
+2. Sentiment/Emotion Analysis \ 
+3. Change Emotion  \ 
+4. Push Audio data to Audio2Face (GRPC Request) \ 
+5.Building Streaming service between Audio2Face and Unreal (OSC server) \ 
 
 
 ## Demo
