@@ -67,7 +67,7 @@ To link the streaming player instance to the Metahuman, you need to edit the gra
 	```
 	* On the Innovative machine, navigate to the batch file ("digitalassociation-main/ttsEmotion/exec.bat")dir and call
 	```
-	exec.bat "input_str"
+	exec.bat input_str
 	```
 
 2. In the audio2face.py
