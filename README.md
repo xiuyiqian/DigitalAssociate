@@ -9,10 +9,10 @@ Turn text into audio and project it onto audio2face with emotion shown on the te
 	<li>Push Audio data to Audio2Face (GRPC Request)</li>
 	<li>Building Streaming service between Audio2Face and Unreal (OSC server)</li>
 <ol>
+	
 ## Demo
 [![IMAGE ALT TEXT]](https://user-images.githubusercontent.com/79441444/234890837-7fd4f2a2-ab41-47e4-9fea-713c3bd09aea.mp4
  "Demo")
-
 
 ## How to Run the Project
 Before you begin, you'll need to clone the repository with the template code used in this repo.
