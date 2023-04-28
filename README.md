@@ -42,14 +42,16 @@ To link the streaming player instance to the Metahuman, you need to edit the gra
 ## How It Works
 
 #### ***Text To Speech*** 
-The avatar's innput text converts to audio by the [Gtts API](https://pypi.org/project/gTTS/). The synthesized voice has been used to drive the facial animation on metahumn
+* The avatar's innput text converts to audio by the [Gtts API](https://pypi.org/project/gTTS/). The synthesized voice has been used to drive the facial animation on metahumn
 #### ***Emotion Analysis***
-1. Use BERT Trained Model to predtict the emotion/sentiment of the analysis.\
-2. Use RESTful API to adjust the emotion before pushing the audio to the A2F.\
+<ol>
+	<li>Use BERT Trained Model to predtict the emotion/sentiment of the analysis.</li>
+	<li>Use RESTful API to adjust the emotion before pushing the audio to the A2F.</li>
+</ol>
 #### ***Push Transferred Audio to A2F***
-Use GRPC Request to upload the audio file to the A2F application
+* Use GRPC Request to upload the audio file to the A2F application
 #### ***Streaming Between Unreal and A2F***
-Send Blendshape weight the OSC Server by UDP protocol
+* Send Blendshape weight the OSC Server by UDP protocol
 **Replace the **
 
 ## Code Explain
