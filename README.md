@@ -28,8 +28,9 @@ $ conda env create -f /path/to/requirements.yml
 #### Omniverse Audio2Face setup
 Getting the python script interact with the Audio2Face to play the audio, we need to choose streaming audio player instead of playing local data.
 To link the streaming player instance to the Metahuman, you need to edit the graph exactly the same as below.\
-![](https://bmwgroup.sharepoint.com/:i:/r/teams/est-Innovators/Freigegebene%20Dokumente/General/Avatar/a2fScripts-setup/a2FsetUp.png?csf=1&web=1&e=SPeerd)
-** To open the blueprint,
+![](https://drive.google.com/file/d/1WjhWCxZxDgj-sHQUKXMPaPMkDlP4V3zo/view?usp=share_link)
+
+
 
 ## How It Works
 
@@ -39,6 +40,15 @@ The avatar's innput text converts to audio by the [Gtts API](https://pypi.org/pr
 1. Use BERT Trained Model to predtict the emotion/sentiment of the analysis.\
 2. Use RESTful API to adjust the emotion before pushing the audio to the A2F.\
 #### ***Push Transferred Audio to A2F***
+Use GRPC Request to upload the audio file to the A2F application
+#### ***Streaming Between Unreal and A2F***
+Send Blendshape weight the OSC Server by UDP protocol
+
+## Code Explain
+
+
+
+
 
 
 
