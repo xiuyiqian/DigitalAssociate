@@ -60,19 +60,29 @@ To link the streaming player instance to the Metahuman, you need to edit the gra
  C:\Users\innovation_lab\Documents\Omniverse\pkg\audio2face-2022.2.0\exts\omni.audio2face.exporter\omni\audio2face\exporter\scripts\faceSolver.py
 ```
 ## Code Explain
-1. Use the following code example to run the script
-```
-python main.py Input_String
-```
-	- In the audio2face.py
-		- set self.a2f_url to your local host (IPV4/IPV6)-- the default port is 50051
-		- set self.avatar_instance to your own Audio2face Streaming instace (same as the prim path of the node)
-2. The EmotionPrediction.py currently is unavailable as it requires cuda to load the module. To make the moudle available again
+1. Use the one of the following code example to run the script
+	* call the python script directly
+	```
+	python main.py Input_String
+	```
+	* On the Innovative machine, navigate to the batch file ("digitalassociation-main/ttsEmotion/exec.bat")dir and call
+	```
+	exec.bat "input_str"
+	```
+
+2. In the audio2face.py
+	* set self.a2f_url to your local host (IPV4/IPV6)-- the default port is 50051
+	* set self.avatar_instance to your own Audio2face Streaming instace (same as the prim path of the node)
+
+3. The EmotionPrediction.py currently is unavailable as it requires cuda to load the module. To make the moudle available again
 	* run the jupyter notebook in teams-folder under "avatar/sentiment-Analysis/6_sentiment_original_fine-tuned-bert.ipynb" and save the module in the chosen dir.
 	* coming back to the EmotionPrediction.py
 	```
 	model = TFBertModel.from_pretrained('saved_module_dir.h5')
 	```
+## Unsolved-Integration of Unreal and A2F
+	- currently, the unreal will freeze after running python script, so I create a new thread or child-process to trigger A2F application. but the problem is still unsolved.
+	- the "threadExec.py" includes both tries
 
 
 
