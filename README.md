@@ -48,12 +48,15 @@ To link the streaming player instance to the Metahuman, you need to edit the gra
 	<li>Use BERT Trained Model to predtict the emotion/sentiment of the analysis.</li>
 	<li>Use RESTful API to adjust the emotion before pushing the audio to the A2F.</li>
 </ol>
+
 #### ***Push Transferred Audio to A2F***
 * Use GRPC Request to upload the audio file to the A2F application
 #### ***Streaming Between Unreal and A2F***
 * Send Blendshape weight the OSC Server by UDP protocol
-**Replace the **
-
+**Replace the Blendshape weight ending code in the following address**
+```
+ C:\Users\innovation_lab\Documents\Omniverse\pkg\audio2face-2022.2.0\exts\omni.audio2face.exporter\omni\audio2face\exporter\scripts\faceSolver.py
+```
 ## Code Explain
 
 
