@@ -6,7 +6,7 @@ Turn text into audio and project it onto audio2face with emotion shown on the te
 2.Sentiment/Emotion Analysis\
 3.Change Emotion\
 4.Push Audio data to Audio2Face (GRPC Request)\
-5.Building Streaming service between Audio2Face and Unreal (OSC server)
+5.Building Streaming service between Audio2Face and Unreal (OSC server)\
 ## Demo
 [![IMAGE ALT TEXT]](https://user-images.githubusercontent.com/79441444/234890837-7fd4f2a2-ab41-47e4-9fea-713c3bd09aea.mp4
  "Demo")
@@ -31,10 +31,13 @@ To link the streaming player instance to the Metahuman, you need to edit the gra
 ** To open the blueprint
 
 ## How It Works
-![](https://i.imgur.com/BZIBUAt.png)
+
 #### ***Text To Speech***
 The avatar's innput text converts to audio by the [Gtts API](https://pypi.org/project/gTTS/). The synthesized voice has been used to drive the facial animation on metahumn
-#### ***Language Understanding***
+#### ***Emotion Analysis***
+1. Use BERT Trained Model to predtict the emotion/sentiment of the analysis.\
+2. Use RESTful API to adjust the \
+
 
 
 
