@@ -54,8 +54,8 @@ To link the streaming player instance to the Metahuman, you need to edit the gra
 #### ***Push Transferred Audio to A2F***
 * Use GRPC Request to upload the audio file to the A2F application
 #### ***Streaming Between Unreal and A2F***
-* Send Blendshape weight the OSC Server by UDP protocol\
-* Replace the Blendshape weight ending code in the following address in the machine**
+* Send Blendshape weight the OSC Server by UDP protocol
+<em><strong>Replace the Blendshape weight ending code in the following address in the machine</strong></em>
 ```
  C:\Users\innovation_lab\Documents\Omniverse\pkg\audio2face-2022.2.0\exts\omni.audio2face.exporter\omni\audio2face\exporter\scripts\faceSolver.py
 ```
