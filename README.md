@@ -21,6 +21,8 @@ Before you begin, you'll need to clone the repository with the template code use
 Omniverse Audio2Face is an application brings our avatars to vivid state. With [Omniverse Audio2Face](https://www.nvidia.com/en-us/omniverse/apps/audio2face/), anyone can now create realistic facial expressions and emotions to match voice-over track. 
 #### ***Omniverse Audio2Face***
 ![](https://i.imgur.com/7ioYQHj.png)
+* With [BlendShape](https://www.youtube.com/watch?v=jrZ71xtaJ5E), Metahuman facial animation can be mapped to unreal.
+* Other [RESTful-API control](https://www.youtube.com/watch?v=bnLz94I9mZo)
 #### Creating an environment from an environment. yml file
 Make sure Anaconda is installed on your local machine.\
 Create the virtual environment with following commands\
@@ -53,7 +55,7 @@ To link the streaming player instance to the Metahuman, you need to edit the gra
 * Use GRPC Request to upload the audio file to the A2F application
 #### ***Streaming Between Unreal and A2F***
 * Send Blendshape weight the OSC Server by UDP protocol
-**Replace the Blendshape weight ending code in the following address**
+**Replace the Blendshape weight ending code in the following address in the machine**
 ```
  C:\Users\innovation_lab\Documents\Omniverse\pkg\audio2face-2022.2.0\exts\omni.audio2face.exporter\omni\audio2face\exporter\scripts\faceSolver.py
 ```
