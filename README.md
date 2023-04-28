@@ -8,11 +8,12 @@ Turn text into audio and project it onto audio2face with emotion shown on the te
 	<li>Change Emotion</li>
 	<li>Push Audio data to Audio2Face (GRPC Request)</li>
 	<li>Building Streaming service between Audio2Face and Unreal (OSC server)</li>
-<ol>
-	
+</ol>
+
 ## Demo
 [![IMAGE ALT TEXT]](https://user-images.githubusercontent.com/79441444/234890837-7fd4f2a2-ab41-47e4-9fea-713c3bd09aea.mp4
  "Demo")
+
 
 ## How to Run the Project
 Before you begin, you'll need to clone the repository with the template code used in this repo.
@@ -35,7 +36,7 @@ To link the streaming player instance to the Metahuman, you need to edit the gra
 	<li>Open the Audio2Face Tab on the top and choose template of "CoreFull Face and Streaming</li>
 	<li>In Stage section, click any Graph Node and right Click to open Graph</li>
 	<li>Link the Streaming Instance to the CoreFull Face and link the other nodes as the above graph</li>
-<ol>
+</ol>
 
 
 ## How It Works
