@@ -33,7 +33,7 @@ $ conda env create -f /path/to/requirements.yml
 #### Omniverse Audio2Face setup
 Getting the python script interact with the Audio2Face to play the audio, we need to choose streaming audio player instead of playing local data.
 To link the streaming player instance to the Metahuman, you need to edit the graph exactly the same as below (also under team folder "Avatar/a2fScripts-setup/a2FsetUp.png").\
-![](https://drive.google.com/file/d/1YkkDBe7tQ2v7yinY4KW-bXCeLQswf48Y/view?usp=share_link)
+![](streamSetUp.png)
 <ol>
 	<li>Open the Audio2Face Tab on the top and choose template of "CoreFull Face and Streaming"</li>
 	<li>In Stage section, click any Graph Node and right Click to open Graph</li>
